@@ -1,0 +1,49 @@
+ Repaso4
+
+ Timestamp is 6827c625 (Fri May 16 17:11:33 2025)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000002ccH .text                   CODE
+ 0002:00000000 00000024H .idata$5                DATA
+ 0002:00000024 00000014H .idata$2                DATA
+ 0002:00000038 00000014H .idata$3                DATA
+ 0002:0000004c 00000024H .idata$4                DATA
+ 0002:00000070 000000aeH .idata$6                DATA
+ 0002:0000011e 00000000H .edata                  DATA
+ 0003:00000000 00000160H .data                   DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       _start                     00401000 f   Repaso4.obj
+ 0001:000000ba       _ExitProcess@4             004010ba f   kernel32:kernel32.dll
+ 0001:000000c0       _dwtoa@8                   004010c0 f   masm32:dwtoa.obj
+ 0001:00000128       _StdOut@4                  00401128 f   masm32:stdout.obj
+ 0001:00000160       _StdIn@8                   00401160 f   masm32:stdin.obj
+ 0001:000001b0       _locate@8                  004011b0 f   masm32:locate.obj
+ 0001:000001dc       _ClearScreen@0             004011dc f   masm32:clearscr.obj
+ 0001:00000230       _StrLen@4                  00401230 f   masm32:strlen.obj
+ 0001:000002a2       _GetStdHandle@4            004012a2 f   kernel32:kernel32.dll
+ 0001:000002a8       _WriteFile@20              004012a8 f   kernel32:kernel32.dll
+ 0001:000002ae       _ReadFile@20               004012ae f   kernel32:kernel32.dll
+ 0001:000002b4       _SetConsoleMode@8          004012b4 f   kernel32:kernel32.dll
+ 0001:000002ba       _SetConsoleCursorPosition@8 004012ba f   kernel32:kernel32.dll
+ 0001:000002c0       _FillConsoleOutputCharacterA@20 004012c0 f   kernel32:kernel32.dll
+ 0001:000002c6       _GetConsoleScreenBufferInfo@8 004012c6 f   kernel32:kernel32.dll
+ 0002:00000000       __imp__ExitProcess@4       00402000     kernel32:kernel32.dll
+ 0002:00000004       __imp__GetStdHandle@4      00402004     kernel32:kernel32.dll
+ 0002:00000008       __imp__WriteFile@20        00402008     kernel32:kernel32.dll
+ 0002:0000000c       __imp__ReadFile@20         0040200c     kernel32:kernel32.dll
+ 0002:00000010       __imp__SetConsoleMode@8    00402010     kernel32:kernel32.dll
+ 0002:00000014       __imp__SetConsoleCursorPosition@8 00402014     kernel32:kernel32.dll
+ 0002:00000018       __imp__FillConsoleOutputCharacterA@20 00402018     kernel32:kernel32.dll
+ 0002:0000001c       __imp__GetConsoleScreenBufferInfo@8 0040201c     kernel32:kernel32.dll
+ 0002:00000020       \177kernel32_NULL_THUNK_DATA 00402020     kernel32:kernel32.dll
+ 0002:00000024       __IMPORT_DESCRIPTOR_kernel32 00402024     kernel32:kernel32.dll
+ 0002:00000038       __NULL_IMPORT_DESCRIPTOR   00402038     kernel32:kernel32.dll
+
+ entry point at        0001:00000000
+
+ Static symbols
+
